@@ -5,7 +5,7 @@
 
 # **ABSTRACT**
 
-	A two-wheeled self-balancing robot is an application of the classical inverted pendulum problem of a control system. In this robot, it is obligatory to study control theory and find the best suitable controls for our system. Moreover, we have to study the behavior of current in the DC motor models to verify the Control system and end effector trade-off. In this project, we have chosen PID controllers and applied them in various ways, forming various control loops for stabilizing our system and at last studied behavior for one of the optimal controllers called LQR by simulating in MATLAB.
+A two-wheeled self-balancing robot is an application of the classical inverted pendulum problem of a control system. In this robot, it is obligatory to study control theory and find the best suitable controls for our system. Moreover, we have to study the behavior of current in the DC motor models to verify the Control system and end effector trade-off. In this project, we have chosen PID controllers and applied them in various ways, forming various control loops for stabilizing our system and at last studied behavior for one of the optimal controllers called LQR by simulating in MATLAB.
 
 State-space implementation of robot is defined as the following:
 
@@ -25,6 +25,7 @@ LQR controller is an optimal controller whose motive is to minimize the cost fun
 The tuning parameter of LQR is defined by 2  variables
 	Q Matrix 
 	R
+ 
 ![TUNIBG](images/tuned_values.png)
 
 And The response of Robot is :
